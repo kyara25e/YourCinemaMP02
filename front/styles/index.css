@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(32, 2, 41);
+  color: rgb(8, 5, 1);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 20px;
+  background-color: hwb(260 0% 86% / 0.041);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: rgb(32, 2, 41);
+
+}
+
+.headerContainer {
+  width: 90%;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+main {
+  margin-top: 400px;
+
+}
+
+
+img {
+  width: 300px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+  
+}
+
+.menu a {
+  color: aliceblue;
+  font-size: 28px;
+}
+
+.menu a:hove {
+  text-decoration: underline;
+}
+
+input {
+  width: 100%;
+  max-width: 650px;
+  padding: 15px 50px;
+  border-radius: 20px;
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+
+
+.card-img-top {
+  width: 100%;
+  height: 450px;    
+  object-fit: cover; 
+  object-position: center;
+}
+
+
+
+.title {
+  font-size: 15px;
+  color: #fff;
+
+}
+
+.logo {
+  transition: transform 0.3s ease, box-shadow 0.3 ease; 
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #0918e5;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#cardsContainer {
+  width: 100%;
+}
